@@ -14,3 +14,18 @@ if op == '+':
 elif op == '-':
     for i in range(num,0,-1):
         print(i,end=" ")
+
+
+
+
+
+
+
+#alternative way
+"""num = int(input("Enter a no: "))
+op = input("Enter OP(+,-): ")
+
+if op == '+':
+    print(*range(num+1), sep=",")
+elif op == '-':
+    print(*range(num, 0, -1), sep=",")"""
