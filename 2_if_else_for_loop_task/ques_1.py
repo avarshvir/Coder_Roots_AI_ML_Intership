@@ -2,7 +2,7 @@
 """WAP Ask user to input a number and then
 month name corresponding to that number"""
 
-month = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec']
+#month = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec']
 
 mon_num = int(input("Enter month number :"))
 
