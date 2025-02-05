@@ -3,14 +3,30 @@
 # create a list of names of employees who have a salary greater than 50,000.
 
 employee_detail = {
-    1: {'name':'xyz','department':'AI','salary':100000},
-    2: {'name':'abc','department':'Electronics','salary':100000},
-    3: {'name':'qwe','department':'Software Development','salary':100000},
-    4: {'name':'rty','department':'Marketing','salary':80000},
-    5: {'name':'poi','department':'IT','salary':80000},
-    6: {'name':'jkl','department':'Management','salary':49000},
-    7: {'name':'mnb','department':'HR','salary':48000},
-    8: {'name':'hgf','department':'Clerical','salary':47000},
+    1: {'name':'xyz',
+        'department':'AI',
+        'salary':100000},
+    2: {'name':'abc',
+        'department':'Electronics',
+        'salary':100000},
+    3: {'name':'qwe',
+        'department':'Software Development',
+        'salary':100000},
+    4: {'name':'rty',
+        'department':'Marketing',
+        'salary':80000},
+    5: {'name':'poi',
+        'department':'IT',
+        'salary':80000},
+    6: {'name':'jkl',
+        'department':'Management',
+        'salary':49000},
+    7: {'name':'mnb',
+        'department':'HR',
+        'salary':48000},
+    8: {'name':'hgf',
+        'department':'Clerical',
+        'salary':47000},
 }
 
 high_salary_employee = []

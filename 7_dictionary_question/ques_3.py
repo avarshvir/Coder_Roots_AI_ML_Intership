@@ -14,4 +14,4 @@ if user_input == computer_guess:
 elif computer_guess >= user_input:
     print("number is too high that is guess by computer") 
 else:
-    print("number is too low that is guess by cmputer") 
+    print("number is too low that is guess by computer") 
