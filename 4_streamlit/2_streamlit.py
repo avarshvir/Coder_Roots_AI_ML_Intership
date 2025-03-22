@@ -57,3 +57,7 @@ if btn:
     st.write("Programming Language: ",p_lang)
     st.write("Date of Birth: ", dob)
     st.write("Tools: ",tools)
+    
+    st.write("Programming Language")
+    for lang in p_lang:
+        st.write(f"- {lang}")
