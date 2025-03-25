@@ -30,5 +30,6 @@ predictive_price = joblib.load('housing2.pkl')
 def p():
     pp = predictive_price.predict([arr])
     st.write(pp)
+    st.balloons()
 
 st.button("Predict",on_click=p)
